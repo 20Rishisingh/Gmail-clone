@@ -14,7 +14,7 @@ nav{
    /* justify-content: space-between; */
    height: 8vh;
    width: 100vw;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
 }
 
@@ -79,10 +79,18 @@ span:hover{
    background-color: rgb(222, 234, 221);
 }
 
+#signin{
+   height: 25px;
+   width: 50px;
+   border-radius: 10px;
+   padding: 5px;
+}
+
+
 .main{
    display: flex;
    margin-top: 15px;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    height: 85vh;
    width: 100vw;
 }
@@ -90,7 +98,7 @@ span:hover{
 .main #All-Tabs{
    height: 70vh;
    width: 20vw;
-   border: 1.5px solid black;
+   /* border: 1.5px solid black; */
 }
 
 .main #All-Tabs #compose-btn{
@@ -220,10 +228,45 @@ span:hover{
    margin-left: 50px;
 }
 
+.main #All-Tabs #starred:hover{
+   cursor: pointer;
+   background-color: #c2e7ff;
+   border-top-right-radius : 15px;
+   border-bottom-right-radius : 15px;
+}
+
+.main #All-Tabs #snoozed:hover{
+   cursor: pointer;
+   background-color: #c2e7ff;
+   border-top-right-radius : 15px;
+   border-bottom-right-radius : 15px;
+}
+
+.main #All-Tabs #sent:hover{
+   cursor: pointer;
+   background-color: #c2e7ff;
+   border-top-right-radius : 15px;
+   border-bottom-right-radius : 15px;
+}
+
+.main #All-Tabs #draft:hover{
+   cursor: pointer;
+   background-color: #c2e7ff;
+   border-top-right-radius : 15px;
+   border-bottom-right-radius : 15px;
+}
+
+.main #All-Tabs #more:hover{
+   cursor: pointer;
+   background-color: #c2e7ff;
+   border-top-right-radius : 15px;
+   border-bottom-right-radius : 15px;
+}
+
 .main #mails{
    height: 85vh;
    width: 80vw;
-   border: 1.5px solid black;
+   /* border: 1.5px solid black; */
 }
 
 .main #mails #icons{
@@ -238,8 +281,51 @@ span:hover{
 .main #mails #tab-bar{
    display: flex;
    justify-content: space-between;
+   /* height: 10vh; */
    width: 60vw;
-   margin: 20px;
-
+   margin: 0px;
+   /* border: 1px solid blue; */
 }
 
+.main #mails #mail-tab{
+   display: flex;
+   margin: 12px;
+}
+
+.main #mails #mail-tab:hover{
+   cursor: pointer;
+   background-color: #d4d9e3;
+   height: 40px;
+   width: 140px;
+   border-radius: 20px;
+   align-items: center;
+}
+
+.main #mails #mail-tab p{
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+.main #mails #email-list{
+   width: 90vw;
+   margin: 5px;
+   padding: 5px;
+   cursor: pointer;
+   /* border: 1px solid blue; */
+}
+
+.main #mails #email-list #mail{
+   display: flex;
+   flex-direction: row;
+   padding: 5px;
+   font-size: 20px;
+}
+
+.main #mails #email-list #mail #sender{
+   width: 170px;
+   margin-left: 5px;
+}
+
+.main #mails #mail:hover{
+   background-color: #c2e7ff;
+}
