@@ -3,7 +3,7 @@ This project is a clone of Gmail created using HTML, CSS, and JavaScript.
 
 # Important Links:
 - Hosted Link : https://20rishisingh.github.io/Gmail-clone/
-- LinkedIn Post :
+- LinkedIn Post : https://www.linkedin.com/posts/rishi-singh-rajput-60b935248_frontend-gmailclone-localstorage-activity-7181715719980498944-WGYv?utm_source=share&utm_medium=member_desktop
 
 ## HTML Tags Used:
 - `<html>`: Defines the root of an HTML document
