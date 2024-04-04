@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Signin to Gmail </title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Creat Account</title>
 </head>
 <body>
-   <h1> Sign in Panel </h1>
+   <h1>Creat Account </h1>
    
    
    <div class="box">
 
+      <input id="name" type="text" placeholder="Enter name">
       <input id="email" type="email" placeholder="Enter email">
       <input id="pswd" type="password" placeholder="Enter password">
       
-      <button id="btn" type="button"> Sign in </button>
+      <button id="btn" type="button"> Submit </button>
    </div>
 
-   <!-- //******************************// -->
-
+<!-- //**************// -->
+   
    <style>
       *{
          margin: 0;
@@ -29,8 +30,8 @@
       body{
          height: 100%;
          width: 100%;
-         background-color: #ccf381;
-         color: #4831d4;
+         background-color: #4831d4;
+         color: #ccf381;
       }
 
       h1{
@@ -42,14 +43,14 @@
       }
 
       .box{
-         box-shadow: 10px 10px 10px grey;
+         box-shadow: 8px 8px 30px #ccf381;
          height: 40vh;
          width: 35vw;
          border: 2px solid black;
          border-radius: 15px;
          padding: 30px;
          text-align: center;
-         background-color: #4831d4;
+         background-color: #ccf381;
          margin-top: 8%;
          margin-left: 32%;
          display: flex;
@@ -58,9 +59,22 @@
       }
 
       p{
+         /* text-align: center; */
          font-size: 25px;
          color: black;
          align-items: center;
+         /* margin-top: 20px;
+         margin-bottom: 25px; */
+      }
+
+      .box #name{
+         font-size: 15px;
+         border-radius: 8px;
+         padding: 5px;
+         margin-left: 100px;
+         color: #4831d4;
+         font-weight: bold;
+         width: 250px;
       }
 
       .box #email{
@@ -68,9 +82,10 @@
          border-radius: 8px;
          padding: 5px;
          margin-left: 100px;
-         /* color: #ccf381; */
+         color: #4831d4;
          font-weight: bold;
          width: 250px;
+
       }
 
       .box #pswd{
@@ -90,11 +105,11 @@
          padding: 5px;
          margin-top: 15px;
          margin-left: 180px;
-         border: 2px solid #4831d4;
+         border: 2px solid #ccf381;
          border-radius: 10px;
-         box-shadow: 3px 3px white;
-         background-color: #ccf381;
-         color: black;
+         box-shadow: 3px 3px black;
+         background-color: #4831d4;
+         color: white;
       }
 
       #btn:hover{
@@ -106,8 +121,6 @@
 
    </style>
 
-
-
-   <script src="logIn.js"></script>
+   <script src="./CreatAcc.js"></script>
 </body>
 </html>

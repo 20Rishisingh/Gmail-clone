@@ -1,36 +1,16 @@
+let btn = document.getElementById("btn").addEventListener("click", check);
 
-const btn = document.getElementById("btn");
-
-btn.addEventListener("click", signUp);
-
-
-function signUp() {
-
+function check() {
    const email = document.getElementById("email").value;
-   console.log(email);
-   const pswd = document.getElementById("pswd").value;
-   console.log(pswd);
-   localStorage.setItem("id", email);
-   localStorage.setItem("pass", pswd);
+   const pswd = document.getElementById("pass").value;
    
-   check();
-
-}
-
-
-
-function check(){
-   const email = document.getElementById("email").value;
-   console.log(email);
-   const pswd = document.getElementById("pswd").value;
-   console.log(pswd);
-   var id1 = localStorage.getItem("id");
-   var pass1 = localStorage.getItem("pass");
+   let id1 = localStorage.getItem("id");
+   let pass1 = localStorage.getItem("pass");
    
-   if(id1 == email || pass1 == pswd){
-      window.location.href="index.html";
-   }
-   else{
+   if (id1 === email && pass1 === pswd) {
+      window.location.href = "index.html";
+   } 
+   else 
       alert("Invalid mail id or password");
-   }
+   
 }
