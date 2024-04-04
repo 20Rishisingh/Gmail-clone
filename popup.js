@@ -19,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
        
        composePopup.style.display = 'none';
    });
+
+   
    const emails = [
        { from: 'example1@gmail.com', subject: 'Meeting Reminder', body: 'Don\'t forget about the meeting tomorrow.' },
        { from: 'example2@gmail.com', subject: 'Vacation Plans', body: 'Let\'s discuss our vacation plans for next month.' },

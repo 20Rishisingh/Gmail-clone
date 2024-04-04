@@ -14,6 +14,7 @@
       <input id="name" type="text" placeholder="Enter name">
       <input id="email" type="email" placeholder="Enter email">
       <input id="pswd" type="password" placeholder="Enter password">
+      <input id="re-pswd" type="password" placeholder="Re-Enter password">
       
       <button id="btn" type="button"> Submit </button>
    </div>
@@ -44,15 +45,16 @@
 
       .box{
          box-shadow: 8px 8px 30px #ccf381;
-         height: 40vh;
-         width: 35vw;
+         height: 60vh;
+         width: 25vw;
+         align-items: center;
          border: 2px solid black;
          border-radius: 15px;
-         padding: 30px;
+         padding: 20px;
          text-align: center;
          background-color: #ccf381;
-         margin-top: 8%;
-         margin-left: 32%;
+         margin-top: 5%;
+         margin-left: 38%;
          display: flex;
          flex-direction: column;
          justify-content: space-around;
@@ -71,7 +73,7 @@
          font-size: 15px;
          border-radius: 8px;
          padding: 5px;
-         margin-left: 100px;
+         /* margin-left: 100px; */
          color: #4831d4;
          font-weight: bold;
          width: 250px;
@@ -81,7 +83,7 @@
          font-size: 15px;
          border-radius: 8px;
          padding: 5px;
-         margin-left: 100px;
+         /* margin-left: 100px; */
          color: #4831d4;
          font-weight: bold;
          width: 250px;
@@ -92,7 +94,16 @@
          font-size: 15px;
          border-radius: 8px;
          padding: 5px;
-         margin-left: 100px;
+         /* margin-left: 100px; */
+         font-weight: bold;
+         width: 250px;
+      }
+
+      .box #re-pswd{
+         font-size: 15px;
+         border-radius: 8px;
+         padding: 5px;
+         /* margin-left: 100px; */
          font-weight: bold;
          width: 250px;
       }
@@ -104,7 +115,7 @@
          font-weight: bold;
          padding: 5px;
          margin-top: 15px;
-         margin-left: 180px;
+         /* margin-left: 180px; */
          border: 2px solid #ccf381;
          border-radius: 10px;
          box-shadow: 3px 3px black;
