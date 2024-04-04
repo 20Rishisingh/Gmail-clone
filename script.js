@@ -17,5 +17,3 @@ const send = document.querySelector(".send-btn").addEventListener("click", () =>
    show.style.display = 'none';
    alert ("Mail sent Successfully");
 });
-
-

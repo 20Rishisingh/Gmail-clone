@@ -6,10 +6,9 @@ function check() {
    
    let id1 = localStorage.getItem("id");
    let pass1 = localStorage.getItem("pass");
-   console.log("sad");
+   
    
    if (id1 === email && pass1 === pswd) {
-      console.log("sad");
       window.location.href = "index.html";
    } 
    else 
