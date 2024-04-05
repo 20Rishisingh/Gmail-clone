@@ -10,5 +10,5 @@ function signUp() {
    localStorage.setItem("id", email);
    localStorage.setItem("pass", pswd);
    
-   window.location.href = "logIn.html";
+   window.location.href = "login.html";
 }
