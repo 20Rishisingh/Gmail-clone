@@ -9,7 +9,7 @@ function check() {
    
    
    if (id1 === email && pass1 === pswd) {
-      window.location.href = "index.html";
+      window.location.href = "inbox.html";
    } 
    else 
       alert("Invalid mail id or password");

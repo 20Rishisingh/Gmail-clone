@@ -1,19 +1,14 @@
-const signinBtn = document.getElementById("signin").addEventListener("click", () => {
-   window.location.href = "CreatAcc.html";
-});
+const btn = document.getElementById("btn");
 
+btn.addEventListener("click", signUp);
 
-const show = document.getElementsByClassName("popup")[0];
+function signUp() {
 
-const composeBtn = document.getElementById("compose-btn").addEventListener("click", () => {
-   show.style.display = 'block';
-});
-
-const del = document.querySelector("#del").addEventListener("click", () => {
-   show.style.display = 'none';
-});
-
-const send = document.querySelector(".send-btn").addEventListener("click", () => {
-   show.style.display = 'none';
-   alert ("Mail sent Successfully");
-});
+   const email = document.getElementById("email").value;
+   const pswd = document.getElementById("pswd").value;
+   
+   localStorage.setItem("id", email);
+   localStorage.setItem("pass", pswd);
+   
+   window.location.href = "login.html";
+}

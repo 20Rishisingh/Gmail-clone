@@ -7,8 +7,8 @@
 body{
    height: 100%;
    width: 100%;
-   background-color: #4831d4;
-   color: #ccf381;
+   background-color: #ccf381;
+   color: #4831d4;
 }
 
 h1{
@@ -20,66 +20,42 @@ h1{
 }
 
 .box{
-   box-shadow: 8px 8px 30px #ccf381;
-   height: 60vh;
-   width: 25vw;
-   align-items: center;
+   box-shadow: 10px 10px 10px grey;
+   height: 40vh;
+   width: 35vw;
    border: 2px solid black;
    border-radius: 15px;
-   padding: 20px;
+   padding: 30px;
    text-align: center;
-   background-color: #ccf381;
-   margin-top: 5%;
-   margin-left: 38%;
+   background-color: #4831d4;
+   margin-top: 8%;
+   margin-left: 32%;
    display: flex;
    flex-direction: column;
    justify-content: space-around;
 }
 
 p{
-   /* text-align: center; */
    font-size: 25px;
    color: black;
    align-items: center;
-   /* margin-top: 20px;
-   margin-bottom: 25px; */
-}
-
-.box #name{
-   font-size: 15px;
-   border-radius: 8px;
-   padding: 5px;
-   /* margin-left: 100px; */
-   color: #4831d4;
-   font-weight: bold;
-   width: 250px;
 }
 
 .box #email{
    font-size: 15px;
    border-radius: 8px;
    padding: 5px;
-   /* margin-left: 100px; */
-   color: #4831d4;
+   margin-left: 100px;
+   /* color: #ccf381; */
    font-weight: bold;
    width: 250px;
-
 }
 
 .box #pswd{
    font-size: 15px;
    border-radius: 8px;
    padding: 5px;
-   /* margin-left: 100px; */
-   font-weight: bold;
-   width: 250px;
-}
-
-.box #re-pswd{
-   font-size: 15px;
-   border-radius: 8px;
-   padding: 5px;
-   /* margin-left: 100px; */
+   margin-left: 100px;
    font-weight: bold;
    width: 250px;
 }
@@ -91,12 +67,12 @@ p{
    font-weight: bold;
    padding: 5px;
    margin-top: 15px;
-   /* margin-left: 180px; */
-   border: 2px solid #ccf381;
+   margin-left: 180px;
+   border: 2px solid #4831d4;
    border-radius: 10px;
-   box-shadow: 3px 3px black;
-   background-color: #4831d4;
-   color: white;
+   box-shadow: 3px 3px white;
+   background-color: #ccf381;
+   color: black;
 }
 
 #btn:hover{
